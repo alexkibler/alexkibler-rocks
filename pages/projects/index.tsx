@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
 const Projects: NextPage = () => {
   return (
@@ -26,6 +26,13 @@ const Projects: NextPage = () => {
                 <a className={styles.card}>
                     <h2>&larr; Return home</h2>
                     <p>A videogame backlog management suite!</p>
+                </a>
+            </Link>
+
+            <Link href="/projects/pps">
+                <a className={styles.card}>
+                    <h2>Pittsburgh Paints &amp; Stains &rarr;</h2>
+                    <p>Marketing site for one of PPG&apos;s brands!</p>
                 </a>
             </Link>
 
