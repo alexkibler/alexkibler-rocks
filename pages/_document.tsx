@@ -5,7 +5,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en-US">
         <Head>
             <meta name="keyword" content="portfolio, developer, software engineer, javascript, typescript, react, nextjs, angular, dotnet" />
 

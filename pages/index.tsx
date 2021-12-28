@@ -43,14 +43,14 @@ const Home: NextPage = () => {
           </a>
           </Link>
 
-          <a
+          <div
             className={styles.card}
           >
             <h2>Fourth card! &rarr;</h2>
             <p>
               Figure out what to use a fourth card for!
             </p>
-          </a>
+          </div>
         </div>
       </main>
 
