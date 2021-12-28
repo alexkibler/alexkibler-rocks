@@ -15,9 +15,10 @@ class MyDocument extends Document {
             <meta property="og:url" content="https://alexkibler.rocks" />
             <meta property="og:type" content="website" />
 
+            {/* Twitter Meta Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Alex Kibler | Full Stack Web Developer" />
-            <meta name="twitter:image" content="https://alexkibler.rocks"/>
+            <meta name="twitter:image" content="https://alexkibler.rocks/images/me.png"/>
         </Head>
         <body>
           <Main />
