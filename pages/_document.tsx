@@ -9,7 +9,7 @@ class MyDocument extends Document {
         <Head>
             <meta name="keyword" content="portfolio, developer, software engineer, javascript, typescript, react, nextjs, angular, dotnet" />
             <meta property="og:title" content="Alex Kibler | Full Stack Web Developer"/>
-            <meta property="og:image" content="https://alexkibler.rocks/images/me.jpg"/>
+            <meta property="og:image" content="https://alexkibler.rocks/images/me.png"/>
             <meta property="og:url" content="https://alexkibler.rocks" />
             <meta property="og:type" content="website" />
         </Head>
