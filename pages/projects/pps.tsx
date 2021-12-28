@@ -21,6 +21,13 @@ const PPS: NextPage = () => {
           sample text
         </p>
 
+        <div className={styles.grid}>
+            <Link href="/">
+                <a className={styles.card}>
+                    <h2>&larr; Return home</h2>
+                </a>
+            </Link>
+        </div>
       </main>
 
       <footer className={styles.footer}>

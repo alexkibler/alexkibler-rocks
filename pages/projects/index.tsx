@@ -25,7 +25,6 @@ const Projects: NextPage = () => {
             <Link href="/">
                 <a className={styles.card}>
                     <h2>&larr; Return home</h2>
-                    <p>A videogame backlog management suite!</p>
                 </a>
             </Link>
 
