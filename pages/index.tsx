@@ -34,14 +34,14 @@ const Home: NextPage = () => {
             <h2>Resume &rarr;</h2>
             <p>Check out my resume!</p>
           </a>
-
+          <Link href="/social">
           <a
-            href="/social"
             className={styles.card}
           >
             <h2>Social &rarr;</h2>
             <p>Follow me on socials!</p>
           </a>
+          </Link>
 
           <a
             className={styles.card}
