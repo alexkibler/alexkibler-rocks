@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           Hello! I&apos;m glad you&apos;re here
         </p>
-        <Image src="/images/me.png" alt="me, on the left" width={300} height={300}/>
+        <Image src="/images/me.png" alt="me, on the right" width={300} height={300}/>
 
         <div className={styles.grid}>
           <Link href="/projects">
