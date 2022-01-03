@@ -77,7 +77,8 @@
   margin: 1rem;
   padding: 1.5rem;
   width:300px;
-  height:200px;
+  min-height:200px;
+  max-height:400px;
   text-align: left;
   color: inherit;
   text-decoration: none;
@@ -87,6 +88,18 @@
   max-width: 300px;
 }
 
+.imageCard {
+  width:300px;
+  min-height:200px;
+  max-height:400px;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
 .card:hover,
 .card:focus,
 .card:active {

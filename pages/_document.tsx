@@ -8,7 +8,7 @@ class MyDocument extends Document {
       <Html lang="en-US">
         <Head>
             <meta name="keyword" content="portfolio, developer, software engineer, javascript, typescript, react, nextjs, angular, dotnet" />
-            <link rel="manifest" href="manifest.json" />
+            <link rel="manifest" href="/manifest.json" />
 
 
             {/* Open Graph Meta Tags */}
