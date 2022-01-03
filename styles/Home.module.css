@@ -89,7 +89,7 @@
 }
 
 .imageCard {
-  width:300px;
+  width:700px;
   min-height:200px;
   max-height:400px;
   text-align: left;
@@ -98,7 +98,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 600px;
 }
 .card:hover,
 .card:focus,

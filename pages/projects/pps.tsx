@@ -45,7 +45,16 @@ const PPS: NextPage = () => {
             <p>Setup environments, generate color images, load initial content, customize components</p>
           </a>
           <div className={styles.imageCard}>
-            <Image src="/images/projects/pps/homepage.png" width="300px" height="400px" alt="PP&amp;S Homepage"/>
+            <Image src="/images/projects/pps/homepage.png" width="600px" height="400px" alt="PP&amp;S Homepage"/>
+          </div>
+          <div className={styles.imageCard}>
+            <Image src="/images/projects/pps/colorfamily.png" width="600px" height="400px" alt="PP&amp;S Homepage"/>
+          </div>
+          <div className={styles.imageCard}>
+            <Image src="/images/projects/pps/color.png" width="600px" height="400px" alt="PP&amp;S Homepage"/>
+          </div>
+          <div className={styles.imageCard}>
+            <Image src="/images/projects/pps/gray.png" width="600px" height="400px" alt="PP&amp;S Homepage"/>
           </div>
 
 
