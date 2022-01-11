@@ -20,7 +20,7 @@ export default function Project(props: ProjectProps) {
         <div className={styles.grid}>
           {props.images.map(image => (
             <div className={styles.imageCard} key={image.title}>
-              <Image src={image.path} width="600px" height="400px" alt={image.title}/>
+              <Image src={image.path} blurDataURL={image.path} width="600px" height="400px" alt={image.title} placeholder="blur"/>
             </div>
           ))}
         </div>
