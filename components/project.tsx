@@ -19,7 +19,7 @@ export default function Project(props: ProjectProps) {
         <>{props.children}</>
         <div className={styles.grid}>
           {props.images.map(image => (
-            <div className={styles.imageCard}>
+            <div className={styles.imageCard} key={image.title}>
               <Image src={image.path} width="600px" height="400px" alt={image.title}/>
             </div>
           ))}
