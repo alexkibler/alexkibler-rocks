@@ -48,7 +48,7 @@ const Projects: NextPage = () => {
             </Link>
 
 
-            <Link href="/projects/cdp">
+            <Link href="/projects/poo">
                 <a className={styles.card}>
                     <h2>PPG Pro Online Ordering &rarr;</h2>
                     <p>Scalable Global e-Commerce application</p>
