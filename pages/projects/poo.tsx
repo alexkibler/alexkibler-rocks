@@ -62,7 +62,7 @@ const CDP: NextPage = () => {
             
             <a className={styles.card}>
               <h2>My Responsibilities</h2>
-              <p>Led a team of primarily frontend developers to build the entire UI for the customer journey from browsing products through checkout</p>
+              <p>Led a team of primarily frontend developers to build the entire frontend for the customer journey from browsing products through checkout</p>
             </a>
           </div>
         </div> 
