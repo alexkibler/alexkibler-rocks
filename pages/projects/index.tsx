@@ -27,11 +27,12 @@ const Projects: NextPage = () => {
                     <h2>&larr; Return home</h2>
                 </a>
             </Link>
-            
-            <a href="https://backlog.quest" target="_blank" rel="noreferrer" className={styles.card}>
-                <h2>Backlog Quest &rarr;</h2>
-                <p>A videogame backlog management suite!</p>
-            </a>
+            <Link href="/projects/backlog-quest">
+              <a className={styles.card}>
+                  <h2>Backlog Quest &rarr;</h2>
+                  <p>A videogame backlog management suite!</p>
+              </a>
+            </Link>
 
             <Link href="/projects/pps">
                 <a className={styles.card}>
