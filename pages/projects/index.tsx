@@ -40,6 +40,21 @@ const Projects: NextPage = () => {
                 </a>
             </Link>
 
+            <Link href="/projects/beta">
+                <a className={styles.card}>
+                    <h2>PPG ProSight &rarr;</h2>
+                    <p>Prototype e-Commerce application</p>
+                </a>
+            </Link>
+
+
+            <Link href="/projects/cdp">
+                <a className={styles.card}>
+                    <h2>PPG Pro Online Ordering &rarr;</h2>
+                    <p>Scalable Global e-Commerce application</p>
+                </a>
+            </Link>
+
         </div>
       </main>
 

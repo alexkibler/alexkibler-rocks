@@ -9,7 +9,7 @@ const PPS: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Pittsburgh Paints &amp; Stains</title>
-        <meta name="description" content="Alex Kibler&apos;s Projects" />
+        <meta name="description" content="Pittsburgh Paints &amp; Stains" />
       </Head>
 
       <main className={styles.main}>
@@ -18,9 +18,9 @@ const PPS: NextPage = () => {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/">
+          <Link href="/projects">
             <a className={styles.card}>
-              <h2>&larr; Return home</h2>
+              <h2>&larr; Back to Projects</h2>
             </a>
           </Link>
           <a className={styles.card}>
