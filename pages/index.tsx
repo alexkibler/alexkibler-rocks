@@ -53,10 +53,6 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-      ©Alex Kibler 2021
-      </footer>
     </div>
   )
 }
